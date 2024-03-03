@@ -34,3 +34,29 @@
   ```
 
   if `Dog` instance does not have `makeSound` method then it works as its parent class...
+
+- - - - - 
+
+  ```js
+  class Dog extends Animal {
+    constructor(name){
+      super(name);
+    }
+
+    makeSound(){
+      super.makeSound(); 
+      console.log("Woof! Woof!");
+    }
+  }
+
+  const a2 = new Dog("Jeff");
+  ```
+
+  In this case when we call `a2.makeSound()` it can print both in the console: 
+
+  ```js
+  console.log(a2.makeSound());
+  // Output:
+      // Generic Animal Sound
+      //  Woof! Woof!
+  ```
