@@ -1,5 +1,12 @@
 # What is `Polymorphism`?
 
+```txt
++ Polymorphism is an important concept of object-oriented programming. It simply means more than one form.
+That is, the same entity (method or operator or object) can perform different operations in different scenarios.
+
++ A polymorphic method is a programming concept where a single method or function can operate on different types of data.
+```
+
 - Polymorphism is derived from the Greek words "poly" (many) and "morph" (form),
 - So, when we are extending a class, then of course we would have child and parent classes, right? Yes, and then it checks if they have the same methods it uses seperately, I mean when you use that method with child class it works as written inside the child class. And it is called Polymorphism.
 
